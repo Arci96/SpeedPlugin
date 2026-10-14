@@ -1,0 +1,17 @@
+name: SpeedPlugin
+version: '1.0'
+main: de.speed.SpeedPlugin
+api-version: '1.21'
+description: Bewegungsgeschwindigkeit von 0 bis 10 einstellen
+commands:
+  speed:
+    description: Setzt die Bewegungsgeschwindigkeit (0-10)
+    usage: /<command> <0-10|reset> [Spieler]
+    permission: speedplugin.use
+permissions:
+  speedplugin.use:
+    description: Eigene Geschwindigkeit ändern
+    default: op
+  speedplugin.others:
+    description: Geschwindigkeit anderer Spieler ändern
+    default: op

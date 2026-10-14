@@ -1,0 +1,7 @@
+Mit GitHub bauen
+================
+1. Neues Repository auf github.com anlegen.
+2. Alle Dateien aus diesem Ordner hochladen (auch den versteckten Ordner .github).
+3. Oben auf "Actions" klicken, den Lauf "Build" abwarten (ca. 1 Minute).
+4. Im fertigen Lauf unten bei "Artifacts" SpeedPlugin herunterladen, die Zip entpacken.
+5. Die SpeedPlugin-1.0.jar in den Ordner "plugins" des Servers legen und neu starten.
